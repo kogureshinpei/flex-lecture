@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>余白を調整する</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div class="max-w-2xl mx-auto px-6 py-8">
+
+    <a href="index.html" class="text-blue-500 hover:underline text-sm">← ホームへ戻る</a>
+
+    <h1 class="text-3xl font-bold text-gray-800 mt-4 mb-2">余白を調整する</h1>
+    <p class="text-gray-600 text-lg mb-8">
+      カードの <code class="bg-gray-200 px-1 rounded">p-2</code> を
+      <code class="bg-gray-200 px-1 rounded">p-8</code> に変えてみよう。余白が広がるのを確認しよう
+    </p>
+
+    <!-- 演習エリア -->
+    <div class="border-2 border-dashed border-gray-300 bg-gray-50 rounded-xl p-8 flex gap-6">
+
+      <div class="flex-1">
+        <p class="text-xs text-gray-400 mb-2 font-mono">📝 ここを変えてみよう</p>
+        <!-- ↓ p-2 を p-8 に変えてみよう -->
+        <div class="bg-white rounded shadow p-2">
+          <h2 class="font-bold">カフェラテ</h2>
+          <p class="text-gray-600">なめらかな口当たり</p>
+          <p class="text-blue-600 font-bold">¥700</p>
+        </div>
+      </div>
+
+      <div class="flex-1">
+        <p class="text-xs text-gray-400 mb-2 font-mono">✅ これが p-8 の状態</p>
+        <div class="bg-white rounded shadow p-8">
+          <h2 class="font-bold">カフェラテ</h2>
+          <p class="text-gray-600">なめらかな口当たり</p>
+          <p class="text-blue-600 font-bold">¥700</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文字サイズを変える</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div class="max-w-2xl mx-auto px-6 py-8">
+
+    <a href="index.html" class="text-blue-500 hover:underline text-sm">← ホームへ戻る</a>
+
+    <h1 class="text-3xl font-bold text-gray-800 mt-4 mb-2">文字サイズを変える</h1>
+    <p class="text-gray-600 text-lg mb-8">
+      テキストのクラスを <code class="bg-gray-200 px-1 rounded">text-sm</code> から
+      <code class="bg-gray-200 px-1 rounded">text-3xl</code> に変えてみよう
+    </p>
+
+    <!-- 演習エリア -->
+    <div class="border-2 border-dashed border-gray-300 bg-white rounded-xl p-8 mb-8">
+      <p class="text-xs text-gray-400 mb-4 font-mono">📝 演習エリア — ここのクラスを書き換えてみよう</p>
+
+      <!-- ↓ text-sm を text-3xl に変えてみよう -->
+      <p class="text-sm font-bold text-gray-800">POSSE CAFE へようこそ！</p>
+    </div>
+
+    <!-- サイズ比較一覧 -->
+    <div class="border-2 border-dashed border-gray-300 bg-white rounded-xl p-8">
+      <p class="text-xs text-gray-400 mb-4 font-mono">📖 サイズ比較一覧</p>
+      <div class="space-y-3">
+        <div class="flex items-baseline gap-4">
+          <span class="text-xs text-gray-400 font-mono w-20">text-sm</span>
+          <p class="text-sm text-gray-800">POSSE CAFE へようこそ！</p>
+        </div>
+        <div class="flex items-baseline gap-4">
+          <span class="text-xs text-gray-400 font-mono w-20">text-base</span>
+          <p class="text-base text-gray-800">POSSE CAFE へようこそ！</p>
+        </div>
+        <div class="flex items-baseline gap-4">
+          <span class="text-xs text-gray-400 font-mono w-20">text-xl</span>
+          <p class="text-xl text-gray-800">POSSE CAFE へようこそ！</p>
+        </div>
+        <div class="flex items-baseline gap-4">
+          <span class="text-xs text-gray-400 font-mono w-20">text-3xl</span>
+          <p class="text-3xl text-gray-800">POSSE CAFE へようこそ！</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
