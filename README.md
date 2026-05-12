@@ -88,10 +88,10 @@ code .
 ```
 flex-lecture/
 ├── index.html        ← ホーム画面
-├── color.html        ← 色を変える
-├── flex.html         ← 横並びにする
-├── spacing.html      ← 余白を調整する
 ├── fontsize.html     ← 文字サイズを変える
+├── color.html        ← 色を変える
+├── spacing.html      ← 余白を調整する
+├── flex.html         ← 横並びにする
 ├── custom.html       ← 自分なりのページを作成してみる
 └── custom.css        ← 自由に書けるCSSファイル
 ```
