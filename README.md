@@ -17,7 +17,7 @@ HTML / CSS（Tailwind）の演習用リポジトリです。
 ### Live Server のインストール方法
 
 1. VS Code を開く
-2. 左のアイコンバーから「拡張機能」（四角のアイコン）をクリック
+2. 左のアイコンバーから「拡張機能（Extensions）」（四角のアイコン）をクリック
 3. 検索欄に `Live Server` と入力
 4. **Live Server**（作者: Ritwick Dey）をインストール
 
@@ -48,8 +48,8 @@ HTML / CSS（Tailwind）の演習用リポジトリです。
 ### 2. VS Code のターミナルを開く
 
 1. VS Code を起動する
-2. 上部メニューの **「ターミナル」→「新しいターミナル」** をクリック
-   - ショートカット: Mac は `` Ctrl + ` ``、Windows は `` Ctrl + ` ``
+2. 上部メニューの **「ターミナル（Terminal）」→「新しいターミナル（New Terminal）」** をクリック
+   - ショートカット: Mac は `Cmd + J`、Windows は `Ctrl + J`
 3. 画面下部にターミナルが表示される
 
 ### 3. クローンを実行する
